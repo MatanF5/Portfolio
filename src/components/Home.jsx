@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Profile from "../assets/prof.jpg";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -30,12 +31,14 @@ const Home = () => {
           />
         </p>
         <div className="flex ">
-          <button className="text-[#ccd6f6] font-bold group border-2 px px-6 py-3 my-2 flex items-center hover:bg-red-800 hover:border-red-800">
-            View My Work
-            <span className="group-hover:rotate-90 group-hover:mb-4 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
+          <Link to="work" smooth={true} duration={500}>
+            <button className="text-[#ccd6f6] font-bold group border-2 px px-6 py-3 my-2 flex items-center hover:bg-red-800 hover:border-red-800">
+              View My Work
+              <span className="group-hover:rotate-90 group-hover:mb-4 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
           <a href="https://drive.google.com/uc?export=download&id=1Ws1kS3k8oc9n8lUCZ9MSPXqY-IGZ6l3k">
             <button className="text-[#ccd6f6] font-bold group border-2 px px-6 py-3 ml-5 my-2 flex items-center hover:bg-red-800 hover:border-red-800">
               Download My Resume
