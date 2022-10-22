@@ -52,7 +52,7 @@ export const data=[
     {
         id:6,
         name:"Portfolio",
-        desc:"This website I created to display my project and about me",
+        desc:" I created this website to display my projects and about me",
         desc2:'Framework Used: React, JavaScript, Html, Tailwind CSS',
         image:port,
         github:"https://github.com/MatanF5/Portfolio",
