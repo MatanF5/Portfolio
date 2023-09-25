@@ -13,23 +13,20 @@ const Home = () => {
           Matan Fridlis
         </h1>
         <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0] ">
-          I'm a Junior Software Developer
+          I'm a Software Engineer
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px] text-lg font-bold">
-          I'm currently working as a Software Developer specializing in building
-          advanced ETL processes, Data Integration, Big Data and Data Bases.
-        </p>
-        <p className="text-[#8892b0] py-4 max-w-[700px] text-lg font-bold flex justify-center ">
-          I'm Highly Motivated, Team Player, Leader, Fast Learner, Creative,
-          Problem Solver, Passionate about programming and learning, Reliable,
-          Independent, self learner. Bringing forth a motivated attitude and
-          variety of IT competences.{" "}
+        <div className="flex h-1/3">
+          <p className="text-[#8892b0] py-4 max-w-[700px] text-lg font-bold flex justify-center gap-20">
+            Highly  motivated  and  versatile  Software  Engineer  with  2  years  of  industry  experience,  a  passion  for  innovation  and  problem-solving.
+            Skilled in bridging front-end and back-end technologies, I continuously strive for excellence by staying updated with the latest industry
+            trends. A natural leader and team player, I excel in fostering collaboration and delivering creative solutions to complex challenges.
+          </p>
           <img
             src={Profile}
-            className="w-40 mx-auto shadow rounded-full h-auto align-middle border-none"
+            className="mx-auto shadow  w-auto rounded-full h-auto align-middle border-none"
             alt="Profile"
           />
-        </p>
+        </div>
         <div className="flex ">
           <Link to="work" smooth={true} duration={500}>
             <button className="text-[#ccd6f6] font-bold group border-2 px px-6 py-3 my-2 flex items-center hover:bg-red-800 hover:border-red-800">
@@ -39,7 +36,7 @@ const Home = () => {
               </span>
             </button>
           </Link>
-          <a href="https://drive.google.com/uc?export=download&id=1Ws1kS3k8oc9n8lUCZ9MSPXqY-IGZ6l3k">
+          <a href="https://drive.google.com/uc?export=download&id=1_aS2I5U-y_XYTHoGD5n-I6KASHj1CRcA">
             <button className="text-[#ccd6f6] font-bold group border-2 px px-6 py-3 ml-5 my-2 flex items-center hover:bg-red-800 hover:border-red-800">
               Download My Resume
               <span className="group-hover:rotate-90 group-hover:mb-4 duration-300">
@@ -49,7 +46,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

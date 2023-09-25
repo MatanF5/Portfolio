@@ -14,9 +14,7 @@ const Projects = () => {
           </p>
           <p className="py-6">Recent Projects I've Done</p>
         </div>
-        {/* container for projects */}
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-20 mx-auto  gap-x-60 ">
-          {/* Gird Item */}
           {project.map((item, index) => (
             <div
               key={index}
@@ -24,7 +22,6 @@ const Projects = () => {
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
             >
-              {/* Hover effect for images */}
               <div className="opacity-0 group-hover:opacity-100 ">
               <span className="text-2xl font-bold text-white tracking-wider">
                   {item.name}
@@ -36,7 +33,6 @@ const Projects = () => {
                   {item.desc2}
                 </p>
                 <div className="pt-8 text-center ">
-                  {/* eslint-disable-next-line */}
                   <a href={item.github} target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-red-800 font-bold text-lg hover:bg-red-800 hover:text-white">
                       Code
