@@ -14,24 +14,20 @@ const skills_1 = [
     {
         id: 4,
         name: 'Pandas',
-    }
-    ,
+    },
     {
         id: 5,
         name: 'FastAPI',
-    }, {
+    },
+    {
         id: 6,
         name: 'Poetry',
     },
     {
         id: 7,
         name: 'Alembic',
-    },
-
-
-
-
-]
+    }
+];
 
 const skills_2 = [
     {
@@ -50,7 +46,6 @@ const skills_2 = [
         id: 4,
         name: 'JavaScript',
     },
-    ,
     {
         id: 5,
         name: 'REST',
@@ -62,8 +57,8 @@ const skills_2 = [
     {
         id: 7,
         name: 'Node.js',
-    },
-]
+    }
+];
 
 const skills_3 = [
     {
@@ -82,7 +77,6 @@ const skills_3 = [
         id: 4,
         name: 'GCP',
     },
-    ,
     {
         id: 5,
         name: 'Linux',
@@ -94,10 +88,11 @@ const skills_3 = [
     {
         id: 7,
         name: 'Bash',
-    },
-]
+    }
+];
+
 export {
     skills_1,
     skills_2,
     skills_3
-}
+};
