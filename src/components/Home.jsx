@@ -36,7 +36,7 @@ const Home = () => {
               </span>
             </button>
           </Link>
-          <a href="https://drive.google.com/uc?export=download&id=1_aS2I5U-y_XYTHoGD5n-I6KASHj1CRcA">
+          <a href="https://drive.google.com/uc?export=download&id=1SWAI3y8ffNid9aPsS3CWD2nnf6E3csJb">
             <button className="text-[#ccd6f6] font-bold group border-2 px px-6 py-3 ml-5 my-2 flex items-center hover:bg-red-800 hover:border-red-800">
               Download My Resume
               <span className="group-hover:rotate-90 group-hover:mb-4 duration-300">
